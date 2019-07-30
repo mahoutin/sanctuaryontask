@@ -1,0 +1,51 @@
+
+.modal {
+  color: black;
+}
+
+.input-group-prepend{
+  margin-top: 0;
+  margin-bottom: 0;
+  }
+
+  .input-group-text {
+    margin-top:0;
+  }
+
+/* 
+.red{
+    background-color: rgb(168, 7, 7);
+    color: white;
+    text-align: center;
+}
+
+.orange{
+    background-color: rgb(216, 86, 11);
+    color: white;
+    text-align: center;
+}
+.green{
+    background-color: rgb(14, 153, 9);
+    color: white;
+    text-align: center;
+}
+ */
+/* #myButton {
+  background: none;
+  border: none;
+  margin: 1% 2%;
+  color: white;
+  position: absolute;
+  font-size: 20px;
+  z-index: 4;
+} */
+/* #myButton:hover {
+  color: black;
+} */
+
+
+/* 
+#employee {
+  margin: 0 auto;
+  text-align: center;
+} */

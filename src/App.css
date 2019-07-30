@@ -1,0 +1,169 @@
+body {
+  min-height: 100%;
+  color: white;
+  background: #fff;
+  background-image: initial;
+  background-position-x: initial;
+  background-position-y: initial;
+  background-size: initial;
+  /* background-repeat-x: initial;
+  background-repeat-y: initial; */
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: rgb(255, 255, 255);
+  text-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin: 0;
+  font-size: 100%;
+  height: 100%;
+  display: block;
+  font-family: "Neue Haas Grotesk Text Pro", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+}
+
+.background {
+  background-image: url(./images/sanctpic.jpg);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: transparent;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  z-index: -1;
+  position:fixed;
+  transition: transform 0.3s ease-out;
+}
+
+.background-item {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: transparent;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  opacity: 0;
+  transition: transform var(--a-show-full-duration) var(--a-show-full-curve);
+}
+
+.background-overlay.show {
+  opacity: 1;
+}
+
+.background-overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  background: url(./images/download.png);
+  background-size: 100% 100%;
+  transition: transform 0.3s ease-out;
+}
+
+.fadein {
+  animation: fadein 0.3s ease-out 0s forwards;
+}
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+ul {
+  list-style: none;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+.App {
+  text-align: center;
+  height: 1000%;
+  background: url(./images/download1.png) center center no-repeat;
+  background-size: cover;
+  line-height: 1.7em;
+  font-size: 337.5%;
+  padding: 0;
+  margin: 0;
+  font-weight: 400;
+}
+
+.date{
+  margin-bottom: 50px;
+}
+p{
+  margin: 0;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+ div {
+  margin: 0;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+} 
+.logo{
+margin-top: 7%;
+}
+.Titlelogo {
+  width: 20%;
+  height: auto;
+}
+
+.time {
+  cursor: default;
+  font-size: 300%;
+  letter-spacing: -5px;
+  font-weight: 500;
+  user-select: none;
+  text-align: center;
+  line-height: 1;
+  padding: 0;
+  margin: 0;
+}
+
+.app-container {
+  z-index: 1;
+  display: inline-block;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  position: relative;
+  padding-top: 20%;
+  margin-bottom: 0;
+  user-select: none;
+}
+
+.fa-user-plus {
+  position: relative;
+  left: 100;
+  display: flex;
+  align-items: flex-end;
+  color: #007bff;
+}
+
+.plus-button {
+  width: 40px;
+  margin-left: 93%;
+  text-align: center;
+  margin-top: 1%;
+}
+
