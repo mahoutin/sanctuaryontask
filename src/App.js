@@ -25,7 +25,7 @@ export default class App extends Component {
                   <Clock />
                 </div>
                 <div >
-                  <span>Welcome to The Sanctuary On Penn</span>
+                  <span>Welcome to The Sanctuary On Task</span>
                 </div>
               </div>
               <PersonalDiplay />
